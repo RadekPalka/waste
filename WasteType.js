@@ -5,11 +5,10 @@ class WasteType{
     this.name = name,
     this.id = id,    
     this.unit = unit,
-    this.counter = 0,
     this.productionList= [],
     this.assemblyList = []
     wasteTypeList.push(this)
-  }
+   }
 }
 
 const wasteType1 = new WasteType("PP Biały", 830025, "kg")
@@ -46,4 +45,4 @@ const wasteType31 = new WasteType("Pianowanie Pomieszane", 830139, "kg")
 const wasteType32 = new WasteType("PP Softell Forvia", 830200, "kg")
 const wasteType33 = new WasteType("PC ABS Pomieszane", 830027, "kg")
 
-export { wasteTypeList }
+export default wasteTypeList 
